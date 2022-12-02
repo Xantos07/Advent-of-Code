@@ -10,8 +10,8 @@ public class RockPaperScissorsPart1 : MonoBehaviour
     [SerializeField] private TextAsset input;
     [SerializeField] private int score = 0;
 
-    [SerializeField] private String adversaryShot = "";
-    [SerializeField]  private String playerShot = "";
+     private String adversaryShot = "";
+     private String playerShot = "";
 
     private String[,] winPart = {{"A", "Y"}, {"B", "Z"}, {"C", "X"}}; //Win 
     private String[,] egalityPart = {{"A", "X"}, {"B", "Y"}, {"C", "Z"}}; //egality 
